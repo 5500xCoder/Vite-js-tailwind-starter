@@ -1,4 +1,5 @@
-const {execSync}=require('child_process')
+
+import { execSync } from 'child_process';
 
 const runCommand = command=>{
     try{
@@ -12,7 +13,7 @@ const runCommand = command=>{
 
 
 const repoName=process.argv[2];
-const gitCheckoutCommand =`git clone --depth 1 https://github.com/${repoName}`;
+const gitCheckoutCommand =`git clone --depth 1 https://github.com/5500xCoder/Vite-js-tailwind-starter ${repoName}`;
 const installDepsCommand =`cd ${repoName} && npm install`;
 
 console.log(`Cloning the repository with name ${repoName}`);

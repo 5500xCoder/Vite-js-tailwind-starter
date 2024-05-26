@@ -1,6 +1,6 @@
 {
-  "name": "@vite-js-tailwind-starter",
-  "version": "0.0.0",
+  "name": "vite-js-tailwind-starter",
+  "version": "0.0.1",
   "description": "This is a basic react+vite+tailwind starter pack",
   "type": "module",
   "bin": "./bin/cli.js",
