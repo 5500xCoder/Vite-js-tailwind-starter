@@ -8,8 +8,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "npx husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/5500xCoder/Vite-js-tailwind-starter "
+  },
+  "keywords": [],
+  "author": "Gourav kshirsagar",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
